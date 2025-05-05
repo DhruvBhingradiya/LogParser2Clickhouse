@@ -30,5 +30,6 @@ def main():
     except Exception as e:
         logging.error(f"Error starting application: {e}", exc_info=True)
 
+# This is the main function
 if __name__ == '__main__':
     main()
